@@ -8,11 +8,13 @@ import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { NewsapiserviceService } from './service/newsapiservice.service';
+import { TechnewsComponent } from './technews/technews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    TechnewsComponent
   ],
   imports: [
     BrowserModule,
