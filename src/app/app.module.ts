@@ -9,12 +9,14 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { NewsapiserviceService } from './service/newsapiservice.service';
 import { TechnewsComponent } from './technews/technews.component';
+import { BusinessnewsComponent } from './businessnews/businessnews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TechnewsComponent
+    TechnewsComponent,
+    BusinessnewsComponent
   ],
   imports: [
     BrowserModule,
