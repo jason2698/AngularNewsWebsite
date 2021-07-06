@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 import { NewsapiserviceService } from './service/newsapiservice.service';
 import { TechnewsComponent } from './technews/technews.component';
@@ -21,7 +22,8 @@ import { BusinessnewsComponent } from './businessnews/businessnews.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    MatProgressSpinnerModule,
   ],
   providers: [NewsapiserviceService],
   bootstrap: [AppComponent]
